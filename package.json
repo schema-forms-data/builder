@@ -1,0 +1,81 @@
+{
+  "name": "@schema-forms-data/builder",
+  "version": "4.0.7",
+  "description": "Visual drag-and-drop form schema builder for SchemaForms",
+  "license": "MIT",
+  "author": "SchemaForms",
+  "homepage": "https://schemaforms.github.io/schema-forms-data",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SchemaFormsData/builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SchemaFormsData/builder/issues"
+  },
+  "keywords": [
+    "react",
+    "forms",
+    "schema",
+    "builder",
+    "drag-drop",
+    "dnd-kit",
+    "visual-editor",
+    "form-builder",
+    "schema-forms-data"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "clean": "rm -rf dist .tsbuildinfo",
+    "prepublishOnly": "pnpm run clean && pnpm run build"
+  },
+  "dependencies": {
+    "@schema-forms-data/core": "^4.0.7",
+    "@schema-forms-data/renderer": "^4.0.7",
+    "@schema-forms-data/templates": "^4.0.7",
+    "@schema-forms-data/ui": "^4.0.7",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.3.0"
+  },
+  "peerDependencies": {
+    "@dnd-kit/core": ">=6.0.0",
+    "@dnd-kit/sortable": ">=9.0.0",
+    "@dnd-kit/utilities": ">=3.0.0",
+    "lucide-react": "^0.400.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "packageManager": "pnpm@9.0.0"
+}
