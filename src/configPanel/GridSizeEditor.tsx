@@ -57,7 +57,6 @@ interface GridSizeEditorProps {
 export const GridSizeEditor = ({
   tamanho,
   inicioColuna,
-  defaultTamanho = 6,
   onTamanhoChange,
   onPositionChange,
 }: GridSizeEditorProps) => {

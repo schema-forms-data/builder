@@ -390,7 +390,7 @@ export const formSchemaToBuilder = (schema: FormSchema): BuilderLoadResult => {
   return { dndState: { containers }, configs, templateId: schema.template ?? null, stepConfig: schema.stepConfig };
 };
 
-const formFieldToConfig = (field: FormField, id: string): ItemConfig => {
+const formFieldToConfig = (field: FormField, _id: string): ItemConfig => {
   const config: ItemConfig = {
     label: field.label,
     name: field.nome,
@@ -407,7 +407,7 @@ const formFieldToConfig = (field: FormField, id: string): ItemConfig => {
     visualStyle: field.visualStyle,
     isReadOnly: field.isReadOnly || undefined,
     isDisabled: field.isDisabled || undefined,
-    // null !== undefined → clearedValue: null é preservado como "" (string vazia), não descartado como undefined
+  
     clearedValue: field.clearedValue !== undefined ? String(field.clearedValue ?? "") : undefined,
     initialValue: field.initialValue !== undefined ? String(field.initialValue) : undefined,
     resolvePropsKey: field.resolvePropsKey || undefined,

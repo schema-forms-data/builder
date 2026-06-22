@@ -3,7 +3,7 @@
  * Used by both LivePreview and schemaConverter to avoid duplication.
  */
 
-import type { ItemConfig, DndState, ItemType } from '../types';
+import type { ItemConfig, DndState } from '../types';
 import { getItemType } from '../constants';
 
 // ============================================

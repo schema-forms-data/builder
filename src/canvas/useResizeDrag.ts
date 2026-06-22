@@ -23,8 +23,6 @@ interface UseResizeDragReturn {
 }
 
 export const useResizeDrag = ({
-    id,
-    currentTamanho,
     inicioColuna,
     onResize,
     pushSnapshot,

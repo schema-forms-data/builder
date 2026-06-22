@@ -16,7 +16,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@schema-forms-data/ui';
-import { RadioGroup, RadioGroupItem } from '@schema-forms-data/ui';
 import { Badge } from '@schema-forms-data/ui';
 import {
   Zap,

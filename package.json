@@ -49,6 +49,9 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite build --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit",
     "lint": "tsc --noEmit",
     "clean": "rm -rf dist .tsbuildinfo",
@@ -56,8 +59,8 @@
   },
   "dependencies": {
     "@schema-forms-data/core": "4.0.11",
-    "@schema-forms-data/renderer": "4.0.11",
-    "@schema-forms-data/templates": "4.0.11",
+    "@schema-forms-data/renderer": "4.0.12",
+    "@schema-forms-data/templates": "4.0.12",
     "@schema-forms-data/ui": "4.0.11",
     "clsx": "2.1.1",
     "tailwind-merge": "3.6.0"
@@ -74,9 +77,11 @@
     "@types/react": "18.3.23",
     "@types/react-dom": "18.3.7",
     "@vitejs/plugin-react": "4.3.1",
+    "@vitest/coverage-v8": "2.1.0",
     "typescript": "5.8.3",
     "vite": "6.3.5",
-    "vite-plugin-dts": "4.5.4"
+    "vite-plugin-dts": "4.5.4",
+    "vitest": "2.1.0"
   },
   "packageManager": "pnpm@9.0.0"
 }
