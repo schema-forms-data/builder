@@ -1,6 +1,6 @@
 {
   "name": "@schema-forms-data/builder",
-  "version": "4.0.9",
+  "version": "4.0.10",
   "description": "Visual drag-and-drop form schema builder for SchemaForms",
   "license": "MIT",
   "author": "SchemaForms",
