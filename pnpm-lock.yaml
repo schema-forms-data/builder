@@ -22,7 +22,7 @@ importers:
         version: 4.0.11
       '@schema-forms-data/renderer':
         specifier: 4.0.11
-        version: 4.0.11(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(lucide-react@0.400.0(react@18.0.0))(react-dom@18.0.0(react@18.0.0))(react-hook-form@7.54.0(react@18.0.0))(react@18.0.0)
+        version: 4.0.11(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(lucide-react@0.400.0(react@18.0.0))(react-dom@18.0.0(react@18.0.0))(react-hook-form@7.80.0(react@18.0.0))(react@18.0.0)
       '@schema-forms-data/templates':
         specifier: 4.0.11
         version: 4.0.11(react@18.0.0)
@@ -42,8 +42,8 @@ importers:
         specifier: 18.0.0
         version: 18.0.0(react@18.0.0)
       tailwind-merge:
-        specifier: 3.3.0
-        version: 3.3.0
+        specifier: 3.6.0
+        version: 3.6.0
     devDependencies:
       '@types/react':
         specifier: 18.3.23
@@ -1385,8 +1385,8 @@ packages:
     peerDependencies:
       react: ^18.0.0
 
-  react-hook-form@7.54.0:
-    resolution: {integrity: sha512-PS05+UQy/IdSbJNojBypxAo9wllhHgGmyr8/dyGQcPoiMf3e7Dfb9PWYVRco55bLbxH9S+1yDDJeTdlYCSxO3A==}
+  react-hook-form@7.80.0:
+    resolution: {integrity: sha512-4P+fk6oXsxY+6xSj7Euhc2sumQD8zQqCuVHoJwoyp9EchP+IUW9OESB7uHFJOKsIBQ4MQqYE84INJFqUCYNoOg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
@@ -1484,6 +1484,9 @@ packages:
 
   tailwind-merge@3.3.0:
     resolution: {integrity: sha512-fyW/pEfcQSiigd5SNn0nApUOxx0zB/dm6UDU/rEwc2c3sX2smWUNbapHv+QRqLGVp9GWX3THIa7MUGPo+YkDzQ==}
+
+  tailwind-merge@3.6.0:
+    resolution: {integrity: sha512-uxL7qAVQriqRQPAyK3pj66VqskWqoZ37PW94jwOTwNfq/z9oyu1V+eqrZqtR2+fCiXdYOZe/Modt8GtvqNzu+w==}
 
   tinyglobby@0.2.17:
     resolution: {integrity: sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==}
@@ -2453,7 +2456,7 @@ snapshots:
 
   '@schema-forms-data/core@4.0.11': {}
 
-  '@schema-forms-data/renderer@4.0.11(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(lucide-react@0.400.0(react@18.0.0))(react-dom@18.0.0(react@18.0.0))(react-hook-form@7.54.0(react@18.0.0))(react@18.0.0)':
+  '@schema-forms-data/renderer@4.0.11(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(lucide-react@0.400.0(react@18.0.0))(react-dom@18.0.0(react@18.0.0))(react-hook-form@7.80.0(react@18.0.0))(react@18.0.0)':
     dependencies:
       '@schema-forms-data/core': 4.0.11
       '@schema-forms-data/templates': 4.0.11(react@18.0.0)
@@ -2462,7 +2465,7 @@ snapshots:
       lucide-react: 0.400.0(react@18.0.0)
       react: 18.0.0
       react-dom: 18.0.0(react@18.0.0)
-      react-hook-form: 7.54.0(react@18.0.0)
+      react-hook-form: 7.80.0(react@18.0.0)
       zod: 4.3.6
     transitivePeerDependencies:
       - '@types/react'
@@ -2867,7 +2870,7 @@ snapshots:
       react: 18.0.0
       scheduler: 0.21.0
 
-  react-hook-form@7.54.0(react@18.0.0):
+  react-hook-form@7.80.0(react@18.0.0):
     dependencies:
       react: 18.0.0
 
@@ -2971,6 +2974,8 @@ snapshots:
   supports-preserve-symlinks-flag@1.0.0: {}
 
   tailwind-merge@3.3.0: {}
+
+  tailwind-merge@3.6.0: {}
 
   tinyglobby@0.2.17:
     dependencies:
