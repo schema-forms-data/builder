@@ -49,16 +49,6 @@ import { BuilderWrapper } from '@schema-forms-data/builder';
 />
 ```
 
----
-
-## Build
-
-```bash
-pnpm install
-pnpm build      # tsc -> dist/
-```
-
-
 ## Licença
 
 [MIT](LICENSE) © Inovex Tecnologia
