@@ -58,10 +58,10 @@
     "prepublishOnly": "pnpm run clean && pnpm run build"
   },
   "dependencies": {
-    "@schema-forms-data/core": "4.0.11",
-    "@schema-forms-data/renderer": "4.0.12",
-    "@schema-forms-data/templates": "4.0.12",
-    "@schema-forms-data/ui": "4.0.11",
+    "@schema-forms-data/core": "4.0.12",
+    "@schema-forms-data/renderer": "4.0.13",
+    "@schema-forms-data/templates": "4.0.13",
+    "@schema-forms-data/ui": "4.0.12",
     "clsx": "2.1.1",
     "tailwind-merge": "3.6.0"
   },
